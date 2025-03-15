@@ -8,10 +8,45 @@
 <body>
     <p id="text">Olá mundo!</p>
     <script>
-        let anoNascimento = prompt("Olá, Ano de Nascimento")
-        let dataAtual = prompt ("Data atual")
-        let calculo = dataAtual - anoNascimento
-        document.getElementById("text").innerText = calculo
+        let resposta1 = prompt("Qual a capital do Brasil?")
+        if (resposta1 !== null && resposta1.toLowerCase() === "brasilia")
+        {
+            alert("Correto!")
+        }
+        else 
+        {
+            alert("Errado!")
+        }
+
+        let resposta2 = prompt("Quanto é 1000-7?")
+        if (resposta2 === "993")
+        {
+            alert("Correto!")
+        }
+        else 
+        {
+            alert("Errado!")
+        }
+
+        let resposta3 = prompt("make your dreams come?")
+        if (resposta3 === "true")
+        {
+            alert("nothing is impossible!")
+        }
+        else 
+        {
+            alert("WRONG!!!")
+        } 
+
+        let resposta4 = prompt("and the rains will kill us?")
+        if (resposta4 === "all")
+        {
+            alert("for ourselves against the wall!")
+        }
+        else 
+        {
+            alert("WRONG!!!")
+        } 
     </script>
 </body>
 </html>
